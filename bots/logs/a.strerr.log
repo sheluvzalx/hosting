@@ -1,0 +1,58 @@
+Error: Cannot find module 'discord.js'
+Require stack:
+- C:\Users\SpectreDev\Documents\old-mechon-main\bots\a\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Hook._require.Module.require (C:\Users\SpectreDev\Documents\old-mechon-main\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\SpectreDev\Documents\old-mechon-main\bots\a\index.js:1:29)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Object.<anonymous> (C:\Users\SpectreDev\Documents\old-mechon-main\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\SpectreDev\\Documents\\old-mechon-main\\bots\\a\\index.js'
+  ]
+}
+Error: Cannot find module './client/BaseClient'
+Require stack:
+- C:\Users\SpectreDev\Documents\old-mechon-main\bots\a\node_modules\discord.js\src\index.js
+- C:\Users\SpectreDev\Documents\old-mechon-main\bots\a\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Hook._require.Module.require (C:\Users\SpectreDev\Documents\old-mechon-main\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\SpectreDev\Documents\old-mechon-main\bots\a\node_modules\discord.js\src\index.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at Hook._require.Module.require (C:\Users\SpectreDev\Documents\old-mechon-main\node_modules\require-in-the-middle\index.js:101:39) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\SpectreDev\\Documents\\old-mechon-main\\bots\\a\\node_modules\\discord.js\\src\\index.js',
+    'C:\\Users\\SpectreDev\\Documents\\old-mechon-main\\bots\\a\\index.js'
+  ]
+}
+Error: Cannot find module './client/BaseClient'
+Require stack:
+- C:\Users\SpectreDev\Documents\old-mechon-main\bots\a\node_modules\discord.js\src\index.js
+- C:\Users\SpectreDev\Documents\old-mechon-main\bots\a\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Hook._require.Module.require (C:\Users\SpectreDev\Documents\old-mechon-main\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\SpectreDev\Documents\old-mechon-main\bots\a\node_modules\discord.js\src\index.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at Hook._require.Module.require (C:\Users\SpectreDev\Documents\old-mechon-main\node_modules\require-in-the-middle\index.js:101:39) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\SpectreDev\\Documents\\old-mechon-main\\bots\\a\\node_modules\\discord.js\\src\\index.js',
+    'C:\\Users\\SpectreDev\\Documents\\old-mechon-main\\bots\\a\\index.js'
+  ]
+}

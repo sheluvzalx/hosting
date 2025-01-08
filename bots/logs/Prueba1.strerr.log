@@ -1,0 +1,106 @@
+Error: Cannot find module 'discord.js'
+Require stack:
+- C:\Users\SpectreDev\Documents\old-mechon-main\bots\Prueba1\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Hook._require.Module.require (C:\Users\SpectreDev\Documents\old-mechon-main\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\SpectreDev\Documents\old-mechon-main\bots\Prueba1\index.js:1:29)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Object.<anonymous> (C:\Users\SpectreDev\Documents\old-mechon-main\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\SpectreDev\\Documents\\old-mechon-main\\bots\\Prueba1\\index.js'
+  ]
+}
+Error: Cannot find package 'C:\Users\SpectreDev\Documents\old-mechon-main\bots\Prueba1\node_modules\discord.js\index.js' imported from C:\Users\SpectreDev\Documents\old-mechon-main\bots\Prueba1\index.js
+    at legacyMainResolve (node:internal/modules/esm/resolve:215:26)
+    at packageResolve (node:internal/modules/esm/resolve:841:14)
+    at moduleResolve (node:internal/modules/esm/resolve:927:18)
+    at defaultResolve (node:internal/modules/esm/resolve:1169:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:542:12)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:510:25)
+    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:239:38)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:96:40)
+    at link (node:internal/modules/esm/module_job:95:36) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+file:///C:/Users/SpectreDev/Documents/old-mechon-main/bots/Prueba1/index.js:1
+import { Client, GatewayIntentBits, PermissionsBitField, ChannelType } from 'discord.js';
+                                                         ^^^^^^^^^^^
+SyntaxError: Named export 'ChannelType' not found. The requested module 'discord.js' is a CommonJS module, which may not support all module.exports as named exports.
+CommonJS modules can always be imported via the default export, for example using:
+
+import pkg from 'discord.js';
+const { Client, GatewayIntentBits, PermissionsBitField, ChannelType } = pkg;
+
+    at ModuleJob._instantiate (node:internal/modules/esm/module_job:146:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:229:5)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+file:///C:/Users/SpectreDev/Documents/old-mechon-main/bots/Prueba1/index.js:1
+import { Client, GatewayIntentBits, PermissionsBitField, ChannelType } from 'discord.js';
+                                                         ^^^^^^^^^^^
+SyntaxError: Named export 'ChannelType' not found. The requested module 'discord.js' is a CommonJS module, which may not support all module.exports as named exports.
+CommonJS modules can always be imported via the default export, for example using:
+
+import pkg from 'discord.js';
+const { Client, GatewayIntentBits, PermissionsBitField, ChannelType } = pkg;
+
+    at ModuleJob._instantiate (node:internal/modules/esm/module_job:146:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:229:5)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+file:///C:/Users/SpectreDev/Documents/old-mechon-main/bots/Prueba1/index.js:1
+import { Client, GatewayIntentBits, PermissionsBitField, ChannelType } from 'discord.js';
+                                                         ^^^^^^^^^^^
+SyntaxError: Named export 'ChannelType' not found. The requested module 'discord.js' is a CommonJS module, which may not support all module.exports as named exports.
+CommonJS modules can always be imported via the default export, for example using:
+
+import pkg from 'discord.js';
+const { Client, GatewayIntentBits, PermissionsBitField, ChannelType } = pkg;
+
+    at ModuleJob._instantiate (node:internal/modules/esm/module_job:146:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:229:5)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Cannot find module 'fast-deep-equal/es6/index.js'
+Require stack:
+- C:\Users\SpectreDev\Documents\old-mechon-main\bots\Prueba1\node_modules\@sapphire\shapeshift\dist\cjs\index.cjs
+- C:\Users\SpectreDev\Documents\old-mechon-main\bots\Prueba1\node_modules\@discordjs\builders\dist\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Hook._require.Module.require (C:\Users\SpectreDev\Documents\old-mechon-main\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\SpectreDev\Documents\old-mechon-main\bots\Prueba1\node_modules\@sapphire\shapeshift\dist\cjs\index.cjs:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at Hook._require.Module.require (C:\Users\SpectreDev\Documents\old-mechon-main\node_modules\require-in-the-middle\index.js:101:39) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\SpectreDev\\Documents\\old-mechon-main\\bots\\Prueba1\\node_modules\\@sapphire\\shapeshift\\dist\\cjs\\index.cjs',
+    'C:\\Users\\SpectreDev\\Documents\\old-mechon-main\\bots\\Prueba1\\node_modules\\@discordjs\\builders\\dist\\index.js'
+  ]
+}
+Error: Cannot find module 'fast-deep-equal/es6/index.js'
+Require stack:
+- C:\Users\SpectreDev\Documents\old-mechon-main\bots\Prueba1\node_modules\@sapphire\shapeshift\dist\cjs\index.cjs
+- C:\Users\SpectreDev\Documents\old-mechon-main\bots\Prueba1\node_modules\@discordjs\builders\dist\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Hook._require.Module.require (C:\Users\SpectreDev\Documents\old-mechon-main\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\SpectreDev\Documents\old-mechon-main\bots\Prueba1\node_modules\@sapphire\shapeshift\dist\cjs\index.cjs:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at Hook._require.Module.require (C:\Users\SpectreDev\Documents\old-mechon-main\node_modules\require-in-the-middle\index.js:101:39) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\SpectreDev\\Documents\\old-mechon-main\\bots\\Prueba1\\node_modules\\@sapphire\\shapeshift\\dist\\cjs\\index.cjs',
+    'C:\\Users\\SpectreDev\\Documents\\old-mechon-main\\bots\\Prueba1\\node_modules\\@discordjs\\builders\\dist\\index.js'
+  ]
+}
