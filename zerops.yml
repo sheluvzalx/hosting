@@ -2,27 +2,15 @@
 
 version: '1.0'
 
-
 services:
-  - hostname: nodejs0
-    type: nodejs@22
-
-  app:
-    image: test1
+  nodejs0:  # Nombre del servicio
+    image: node:14  # Cambia esto según la versión de Node.js que necesites
     ports:
-      - "80:80"
-    environment:
-      - ENV_VAR_NAME=value
-    volumes:
-      - ./data:/data
-
-  nodejs0:
-    image: node:14
-    ports:
-      - "3000:3000"
+      - "3000:3000"  # Cambia el puerto según sea necesario
     environment:
       - NODE_ENV=production
     volumes:
-      - ./nodejs-app:/usr/src/app
+      - ./nodejs-app:/usr/src/app  # Cambia la ruta según tu estructura de proyecto
+    command: ["npm", "start"]  # Comando para iniciar la aplicación
 
 # ... puedes agregar más servicios según sea necesario ...

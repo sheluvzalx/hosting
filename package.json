@@ -26,6 +26,7 @@
     "express-fileupload": "^1.2.1",
     "express-session": "^1.17.2",
     "fast-folder-size": "^1.6.1",
+    "git": "^0.1.5",
     "https": "^1.0.0",
     "path": "^0.12.7",
     "pm2": "^5.1.2",
