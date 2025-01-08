@@ -2,7 +2,11 @@
 
 version: '1.0'
 
+
 services:
+  - hostname: nodejs0
+    type: nodejs@22
+
   app:
     image: test1
     ports:
