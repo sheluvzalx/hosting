@@ -12,4 +12,13 @@ services:
     volumes:
       - ./data:/data
 
+  nodejs0:
+    image: node:14
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./nodejs-app:/usr/src/app
+
 # ... puedes agregar más servicios según sea necesario ...
